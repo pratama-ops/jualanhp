@@ -1,0 +1,271 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: white;
+}
+
+.judul {
+    margin-right: auto;
+    padding-left: 80px;
+}
+
+.laku {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+li a:hover {
+    color: lightgreen;
+    transition: .2s all ease-in-out;
+}
+
+nav ul {
+    display: flex;
+    padding: 5px;
+}
+
+.yy {
+    display: flex;
+    padding-right: 100px;
+}
+
+.hp {
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    height: 50px;
+    padding: 5px;
+}
+
+.hp:hover {
+    background-color: lightseagreen;
+    color: black;
+    transition: .3s all ease-in-out;
+}
+
+.konten {
+    background-image: url(aset/laptop.jpg);
+    height: 350px;
+    text-align: center;
+    padding: 100px;
+}
+
+.mabar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.agaklaen {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.laen {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.card {
+    padding: 40px;
+    width: 300px;
+    background-color: white;
+}
+
+.lolo {
+    display: flex;
+    margin-top: 50px;
+}
+
+.angka {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+.tulis {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.java {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.gedi {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.geda {
+    font-family: "Roboto", sans-serif;
+    margin-top: 5px;
+}
+
+.mewing {
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.haji {
+    display: flex;
+}
+
+.halo {
+    font-family: "Roboto", sans-serif;
+    list-style-type: circle;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.email {
+    margin-left: auto;
+    width: 450px;
+    height: 300px;
+}
+
+.heli {
+    margin-top: 50px;
+    background-color: lightgray;
+}
+
+.layanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: darkgreen;
+    padding: 30px;
+}
+
+.kuy {
+    box-shadow: -2px -1px 10px 3px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: -2px -1px 10px 3px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: -2px -1px 10px 3px rgba(0, 0, 0, 0.49);
+    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+    width: 500px;
+    height: 180px;
+}
+
+.kuy:hover {
+    transform: scaleY(1.1);
+    transition: .3s ease-in-out;
+}
+
+.mobile {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.pp {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.pp:hover {
+    color: chartreuse;
+    transition: .3s all ease-in-out;
+}
+
+.page {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+.mobil {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.kijang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.yuk {
+    box-shadow: -2px -1px 10px 3px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: -2px -1px 10px 3px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: -2px -1px 10px 3px rgba(0, 0, 0, 0.49);
+    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.yuk:hover {
+    transform: scaleY(1.1);
+    transition: .3s ease-in-out;
+}
+
+.tim {
+    height: 50px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer:hover {
+    color: lightseagreen;
+    transition: .3s ease-in-out;
+}
